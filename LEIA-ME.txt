@@ -1,0 +1,28 @@
+LogiStock 2.5 — Base LogiStock 2.4 + ajustes de estoque, contas e financeiro
+
+ALTERAÇÕES
+- O botão flutuante de adicionar produto fica visível apenas no Dashboard.
+- Controle de contas: ícone de lixeira para excluir contas, com confirmação; a conta administrativa principal é protegida.
+- Financeiro: gráfico alternável entre Pizza, Barras e Linhas.
+- Movimentações de estoque geram lançamentos financeiros locais automaticamente:
+  - Adicionar unidades registra saída pelo custo unitário do produto.
+  - Remover unidades registra entrada pelo preço de venda unitário.
+  - Ajustes da quantidade no formulário também geram um lançamento.
+- Os lançamentos são filtráveis por dia, semana, mês e período completo.
+- Dados continuam no localStorage do navegador; arquivos JSON de exemplo acompanham o projeto.
+
+COMO TESTAR
+1. Extraia o ZIP e abra login.html.
+2. Conta administrativa demonstrativa: admin@logistock.local / Admin123!
+3. No Dashboard, adicione ou edite produtos e mova quantidades.
+4. Em Financeiro, confira os lançamentos e alterne o tipo de gráfico.
+5. Em Controle de contas, use a lixeira ao lado de uma conta para excluí-la.
+
+LIMITAÇÕES
+Este é um protótipo front-end. As permissões, contas, produtos, movimentações e logs ficam no armazenamento local do navegador, não são compartilhados entre dispositivos e não oferecem segurança de produção. Os lançamentos financeiros automáticos são estimativas calculadas a partir dos preços cadastrados; não representam confirmação de pagamento.
+
+
+ATUALIZAÇÃO 2.6
+- Removido o comando de limpar logs da interface; os registros ficam preservados.
+- O cadastro de produtos não pede mais emoji. A foto é opcional e pode ser selecionada no computador (máximo 3 MB), sendo armazenada localmente no navegador.
+- Produtos de demonstração existentes já incluem URLs de fotos web; se uma foto não carregar, será exibido um placeholder neutro.

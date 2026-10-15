@@ -1,0 +1,1007 @@
+{
+  "app": "LogiStock",
+  "version": "2.0",
+  "observacao": "Dados fictícios de demonstração. Fotos são carregadas de URLs públicas da Unsplash.",
+  "products": [
+    {
+      "id": "CX-KFT-001",
+      "name": "Caixa de Papelão Kraft 40x30x20",
+      "category": "Embalagem",
+      "qty": 240,
+      "cost": 2.5,
+      "price": 4.2,
+      "icon": "📦",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "FT-ADH-048",
+      "name": "Fita Adesiva Transparente 48mm",
+      "category": "Embalagem",
+      "qty": 85,
+      "cost": 5.9,
+      "price": 9.5,
+      "icon": "🧻",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "PL-MAD-100",
+      "name": "Palete de Madeira PBR 100x120",
+      "category": "Transporte",
+      "qty": 32,
+      "cost": 45,
+      "price": 68,
+      "icon": "🪵",
+      "image": "https://images.unsplash.com/photo-1586528116025-7d7c3e4f4f2f?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "SC-RFA-060",
+      "name": "Saco de Ráfia 60x90cm",
+      "category": "Embalagem",
+      "qty": 8,
+      "cost": 3.2,
+      "price": 5.8,
+      "icon": "🧺",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "ET-TER-1015",
+      "name": "Etiqueta Térmica 10x15cm (Rolo)",
+      "category": "Identificação",
+      "qty": 56,
+      "cost": 18,
+      "price": 29,
+      "icon": "🏷️",
+      "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "CR-PLT-300",
+      "name": "Carrinho Plataforma 300kg",
+      "category": "Transporte",
+      "qty": 12,
+      "cost": 320,
+      "price": 450,
+      "icon": "🛒",
+      "image": "https://images.unsplash.com/photo-1586528116025-7d7c3e4f4f2f?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "FL-STR-500",
+      "name": "Filme Stretch 500mm",
+      "category": "Embalagem",
+      "qty": 138,
+      "cost": 32,
+      "price": 48,
+      "icon": "🎞️",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LV-PRO-010",
+      "name": "Luva de Proteção Tamanho G",
+      "category": "Segurança",
+      "qty": 0,
+      "cost": 8,
+      "price": 14,
+      "icon": "🧤",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-009",
+      "name": "Bobina de Plástico Bolha 1,2m",
+      "category": "Embalagem",
+      "qty": 22,
+      "cost": 48,
+      "price": 72,
+      "icon": "🫧",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-010",
+      "name": "Envelope de Segurança 26x36cm",
+      "category": "Embalagem",
+      "qty": 90,
+      "cost": 0.75,
+      "price": 1.4,
+      "icon": "✉️",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-011",
+      "name": "Caixa para E-commerce P",
+      "category": "Embalagem",
+      "qty": 180,
+      "cost": 1.4,
+      "price": 2.6,
+      "icon": "📦",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-012",
+      "name": "Caixa para E-commerce M",
+      "category": "Embalagem",
+      "qty": 145,
+      "cost": 2.1,
+      "price": 3.8,
+      "icon": "📦",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-013",
+      "name": "Caixa para E-commerce G",
+      "category": "Embalagem",
+      "qty": 96,
+      "cost": 3.5,
+      "price": 6.2,
+      "icon": "📦",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-014",
+      "name": "Fita Gomada Reforçada",
+      "category": "Embalagem",
+      "qty": 42,
+      "cost": 12,
+      "price": 19,
+      "icon": "🧻",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-015",
+      "name": "Dispensador de Fita Manual",
+      "category": "Ferramentas",
+      "qty": 14,
+      "cost": 28,
+      "price": 42,
+      "icon": "🛠️",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-016",
+      "name": "Estilete Profissional",
+      "category": "Ferramentas",
+      "qty": 26,
+      "cost": 9.5,
+      "price": 16,
+      "icon": "🔪",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-017",
+      "name": "Lâmina para Estilete (10 un.)",
+      "category": "Ferramentas",
+      "qty": 34,
+      "cost": 6,
+      "price": 10,
+      "icon": "🛠️",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-018",
+      "name": "Marcador Permanente Preto",
+      "category": "Escritório",
+      "qty": 65,
+      "cost": 2.8,
+      "price": 5,
+      "icon": "🖊️",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-019",
+      "name": "Caneta Esferográfica Azul",
+      "category": "Escritório",
+      "qty": 120,
+      "cost": 0.9,
+      "price": 1.8,
+      "icon": "🖊️",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-020",
+      "name": "Papel A4 500 folhas",
+      "category": "Escritório",
+      "qty": 44,
+      "cost": 24,
+      "price": 35,
+      "icon": "📄",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-021",
+      "name": "Prancheta A4",
+      "category": "Escritório",
+      "qty": 18,
+      "cost": 8,
+      "price": 14,
+      "icon": "📋",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-022",
+      "name": "Calculadora de Mesa 12 dígitos",
+      "category": "Escritório",
+      "qty": 9,
+      "cost": 38,
+      "price": 59,
+      "icon": "🧮",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-023",
+      "name": "Leitor de Código de Barras USB",
+      "category": "Tecnologia",
+      "qty": 7,
+      "cost": 145,
+      "price": 219,
+      "icon": "📟",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-024",
+      "name": "Impressora de Etiquetas Térmica",
+      "category": "Tecnologia",
+      "qty": 4,
+      "cost": 580,
+      "price": 799,
+      "icon": "🖨️",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-025",
+      "name": "Rolo Etiqueta Térmica 100x150",
+      "category": "Identificação",
+      "qty": 38,
+      "cost": 22,
+      "price": 34,
+      "icon": "🏷️",
+      "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-026",
+      "name": "Ribbon Cera 110x74mm",
+      "category": "Identificação",
+      "qty": 24,
+      "cost": 18,
+      "price": 29,
+      "icon": "🎞️",
+      "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-027",
+      "name": "Balança Digital 30kg",
+      "category": "Equipamentos",
+      "qty": 5,
+      "cost": 190,
+      "price": 279,
+      "icon": "⚖️",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-028",
+      "name": "Balança de Bancada 100kg",
+      "category": "Equipamentos",
+      "qty": 3,
+      "cost": 480,
+      "price": 699,
+      "icon": "⚖️",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-029",
+      "name": "Transpaleteira Manual 2,5t",
+      "category": "Transporte",
+      "qty": 2,
+      "cost": 1450,
+      "price": 1890,
+      "icon": "🛒",
+      "image": "https://images.unsplash.com/photo-1586528116025-7d7c3e4f4f2f?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-030",
+      "name": "Cinta de Amarração 5t",
+      "category": "Transporte",
+      "qty": 17,
+      "cost": 32,
+      "price": 49,
+      "icon": "🪢",
+      "image": "https://images.unsplash.com/photo-1586528116025-7d7c3e4f4f2f?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-031",
+      "name": "Corda Polipropileno 10mm (20m)",
+      "category": "Transporte",
+      "qty": 21,
+      "cost": 28,
+      "price": 43,
+      "icon": "🪢",
+      "image": "https://images.unsplash.com/photo-1586528116025-7d7c3e4f4f2f?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-032",
+      "name": "Filme Stretch Mini 100mm",
+      "category": "Embalagem",
+      "qty": 57,
+      "cost": 8,
+      "price": 13,
+      "icon": "🎞️",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-033",
+      "name": "Cantoneira de Papelão 1m",
+      "category": "Embalagem",
+      "qty": 110,
+      "cost": 1.2,
+      "price": 2.2,
+      "icon": "📐",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-034",
+      "name": "Separador de Papelão",
+      "category": "Embalagem",
+      "qty": 250,
+      "cost": 0.35,
+      "price": 0.8,
+      "icon": "📄",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-035",
+      "name": "Saco Zip 20x30cm (100 un.)",
+      "category": "Embalagem",
+      "qty": 31,
+      "cost": 19,
+      "price": 29,
+      "icon": "🛍️",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-036",
+      "name": "Saco Plástico 40x60cm (100 un.)",
+      "category": "Embalagem",
+      "qty": 28,
+      "cost": 25,
+      "price": 38,
+      "icon": "🛍️",
+      "image": "https://images.unsplash.com/photo-1607166452427-7e4477079c0e?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-037",
+      "name": "Lacre de Segurança Numerado",
+      "category": "Segurança",
+      "qty": 76,
+      "cost": 0.65,
+      "price": 1.2,
+      "icon": "🔒",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-038",
+      "name": "Cadeado Latão 40mm",
+      "category": "Segurança",
+      "qty": 16,
+      "cost": 18,
+      "price": 29,
+      "icon": "🔒",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-039",
+      "name": "Colete Refletivo G",
+      "category": "Segurança",
+      "qty": 22,
+      "cost": 14,
+      "price": 24,
+      "icon": "🦺",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-040",
+      "name": "Capacete de Segurança Branco",
+      "category": "Segurança",
+      "qty": 19,
+      "cost": 22,
+      "price": 35,
+      "icon": "⛑️",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-041",
+      "name": "Óculos de Proteção Incolor",
+      "category": "Segurança",
+      "qty": 33,
+      "cost": 5.5,
+      "price": 9.9,
+      "icon": "🥽",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-042",
+      "name": "Protetor Auricular Plug (par)",
+      "category": "Segurança",
+      "qty": 80,
+      "cost": 1.1,
+      "price": 2.5,
+      "icon": "🎧",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-043",
+      "name": "Botina de Segurança nº 40",
+      "category": "Segurança",
+      "qty": 11,
+      "cost": 68,
+      "price": 99,
+      "icon": "🥾",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-044",
+      "name": "Luva Nitrílica Caixa 100 un.",
+      "category": "Segurança",
+      "qty": 15,
+      "cost": 28,
+      "price": 42,
+      "icon": "🧤",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-045",
+      "name": "Máscara PFF2 (un.)",
+      "category": "Segurança",
+      "qty": 100,
+      "cost": 1.8,
+      "price": 3.5,
+      "icon": "😷",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-046",
+      "name": "Extintor ABC 6kg",
+      "category": "Segurança",
+      "qty": 3,
+      "cost": 210,
+      "price": 299,
+      "icon": "🧯",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-047",
+      "name": "Kit Primeiros Socorros",
+      "category": "Segurança",
+      "qty": 6,
+      "cost": 75,
+      "price": 119,
+      "icon": "🩹",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-048",
+      "name": "Lanterna LED Recarregável",
+      "category": "Equipamentos",
+      "qty": 13,
+      "cost": 35,
+      "price": 59,
+      "icon": "🔦",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-049",
+      "name": "Extensão Elétrica 10m",
+      "category": "Equipamentos",
+      "qty": 10,
+      "cost": 42,
+      "price": 65,
+      "icon": "🔌",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-050",
+      "name": "Filtro de Linha 6 tomadas",
+      "category": "Tecnologia",
+      "qty": 17,
+      "cost": 29,
+      "price": 45,
+      "icon": "🔌",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-051",
+      "name": "Roteador Wi-Fi Dual Band",
+      "category": "Tecnologia",
+      "qty": 4,
+      "cost": 210,
+      "price": 329,
+      "icon": "📶",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-052",
+      "name": "Cabo USB-C 1m",
+      "category": "Tecnologia",
+      "qty": 40,
+      "cost": 12,
+      "price": 22,
+      "icon": "🔌",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-053",
+      "name": "Mouse USB Óptico",
+      "category": "Tecnologia",
+      "qty": 23,
+      "cost": 18,
+      "price": 32,
+      "icon": "🖱️",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-054",
+      "name": "Teclado USB ABNT2",
+      "category": "Tecnologia",
+      "qty": 12,
+      "cost": 48,
+      "price": 75,
+      "icon": "⌨️",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-055",
+      "name": "Monitor LED 24 polegadas",
+      "category": "Tecnologia",
+      "qty": 5,
+      "cost": 620,
+      "price": 899,
+      "icon": "🖥️",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-056",
+      "name": "Notebook Corporativo i5",
+      "category": "Tecnologia",
+      "qty": 2,
+      "cost": 2800,
+      "price": 3590,
+      "icon": "💻",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-057",
+      "name": "Headset USB com Microfone",
+      "category": "Tecnologia",
+      "qty": 8,
+      "cost": 95,
+      "price": 149,
+      "icon": "🎧",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-058",
+      "name": "Webcam Full HD",
+      "category": "Tecnologia",
+      "qty": 6,
+      "cost": 135,
+      "price": 199,
+      "icon": "📷",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-059",
+      "name": "Suporte para Monitor",
+      "category": "Escritório",
+      "qty": 14,
+      "cost": 75,
+      "price": 119,
+      "icon": "🖥️",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-060",
+      "name": "Cadeira Ergonômica",
+      "category": "Mobiliário",
+      "qty": 7,
+      "cost": 690,
+      "price": 990,
+      "icon": "🪑",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-061",
+      "name": "Mesa de Escritório 120cm",
+      "category": "Mobiliário",
+      "qty": 3,
+      "cost": 420,
+      "price": 620,
+      "icon": "🪑",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-062",
+      "name": "Estante Metálica 5 Prateleiras",
+      "category": "Mobiliário",
+      "qty": 6,
+      "cost": 310,
+      "price": 459,
+      "icon": "🗄️",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-063",
+      "name": "Armário de Aço 2 Portas",
+      "category": "Mobiliário",
+      "qty": 2,
+      "cost": 780,
+      "price": 1090,
+      "icon": "🗄️",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-064",
+      "name": "Caixa Organizadora 30L",
+      "category": "Armazenagem",
+      "qty": 45,
+      "cost": 24,
+      "price": 39,
+      "icon": "🧰",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-065",
+      "name": "Caixa Plástica Vazado 50L",
+      "category": "Armazenagem",
+      "qty": 32,
+      "cost": 39,
+      "price": 59,
+      "icon": "🧺",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-066",
+      "name": "Contentor Plástico 120L",
+      "category": "Armazenagem",
+      "qty": 10,
+      "cost": 185,
+      "price": 269,
+      "icon": "🗑️",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-067",
+      "name": "Contentor com Rodas 240L",
+      "category": "Armazenagem",
+      "qty": 4,
+      "cost": 390,
+      "price": 549,
+      "icon": "🗑️",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-068",
+      "name": "Prateleira Plástica 4 níveis",
+      "category": "Armazenagem",
+      "qty": 9,
+      "cost": 120,
+      "price": 179,
+      "icon": "🗄️",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-069",
+      "name": "Gaveteiro Organizador 24 gavetas",
+      "category": "Armazenagem",
+      "qty": 8,
+      "cost": 95,
+      "price": 149,
+      "icon": "🗄️",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-070",
+      "name": "Saco de Lixo Reforçado 100L (100 un.)",
+      "category": "Limpeza",
+      "qty": 22,
+      "cost": 42,
+      "price": 65,
+      "icon": "🗑️",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-071",
+      "name": "Detergente Neutro 5L",
+      "category": "Limpeza",
+      "qty": 16,
+      "cost": 18,
+      "price": 29,
+      "icon": "🧴",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-072",
+      "name": "Desinfetante 5L",
+      "category": "Limpeza",
+      "qty": 12,
+      "cost": 21,
+      "price": 34,
+      "icon": "🧴",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-073",
+      "name": "Álcool 70% 1L",
+      "category": "Limpeza",
+      "qty": 30,
+      "cost": 7,
+      "price": 12,
+      "icon": "🧴",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-074",
+      "name": "Pano de Microfibra (kit 5)",
+      "category": "Limpeza",
+      "qty": 28,
+      "cost": 12,
+      "price": 19,
+      "icon": "🧽",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-075",
+      "name": "Vassoura Industrial",
+      "category": "Limpeza",
+      "qty": 10,
+      "cost": 25,
+      "price": 39,
+      "icon": "🧹",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-076",
+      "name": "Rodo 60cm",
+      "category": "Limpeza",
+      "qty": 14,
+      "cost": 18,
+      "price": 29,
+      "icon": "🧹",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-077",
+      "name": "Balde Plástico 20L",
+      "category": "Limpeza",
+      "qty": 11,
+      "cost": 16,
+      "price": 25,
+      "icon": "🪣",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-078",
+      "name": "Papel Toalha Interfolhado (1000 fls.)",
+      "category": "Limpeza",
+      "qty": 35,
+      "cost": 14,
+      "price": 23,
+      "icon": "🧻",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-079",
+      "name": "Sabonete Líquido 5L",
+      "category": "Limpeza",
+      "qty": 8,
+      "cost": 32,
+      "price": 49,
+      "icon": "🧴",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-080",
+      "name": "Copo Descartável 200ml (100 un.)",
+      "category": "Copa",
+      "qty": 55,
+      "cost": 5,
+      "price": 8.5,
+      "icon": "🥤",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-081",
+      "name": "Água Mineral 500ml (fardo 12)",
+      "category": "Copa",
+      "qty": 19,
+      "cost": 18,
+      "price": 27,
+      "icon": "💧",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-082",
+      "name": "Café Torrado 500g",
+      "category": "Copa",
+      "qty": 24,
+      "cost": 16,
+      "price": 25,
+      "icon": "☕",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-083",
+      "name": "Açúcar Refinado 5kg",
+      "category": "Copa",
+      "qty": 12,
+      "cost": 19,
+      "price": 29,
+      "icon": "🧂",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-084",
+      "name": "Filtro de Café nº 103",
+      "category": "Copa",
+      "qty": 20,
+      "cost": 4.5,
+      "price": 7.5,
+      "icon": "☕",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-085",
+      "name": "Garrafa Térmica 1L",
+      "category": "Copa",
+      "qty": 7,
+      "cost": 48,
+      "price": 75,
+      "icon": "☕",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-086",
+      "name": "Kit Ferramentas 100 peças",
+      "category": "Ferramentas",
+      "qty": 5,
+      "cost": 180,
+      "price": 269,
+      "icon": "🧰",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-087",
+      "name": "Furadeira de Impacto 650W",
+      "category": "Ferramentas",
+      "qty": 3,
+      "cost": 240,
+      "price": 359,
+      "icon": "🛠️",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-088",
+      "name": "Parafusadeira a Bateria",
+      "category": "Ferramentas",
+      "qty": 4,
+      "cost": 310,
+      "price": 449,
+      "icon": "🛠️",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-089",
+      "name": "Trena 5m",
+      "category": "Ferramentas",
+      "qty": 20,
+      "cost": 12,
+      "price": 19,
+      "icon": "📏",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-090",
+      "name": "Alicate Universal 8 pol.",
+      "category": "Ferramentas",
+      "qty": 12,
+      "cost": 22,
+      "price": 35,
+      "icon": "🛠️",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-091",
+      "name": "Chave de Fenda Kit 6 peças",
+      "category": "Ferramentas",
+      "qty": 17,
+      "cost": 28,
+      "price": 42,
+      "icon": "🪛",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-092",
+      "name": "Martelo Unha 25mm",
+      "category": "Ferramentas",
+      "qty": 9,
+      "cost": 26,
+      "price": 39,
+      "icon": "🔨",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-093",
+      "name": "Abraçadeira Nylon 200mm (100 un.)",
+      "category": "Ferramentas",
+      "qty": 42,
+      "cost": 8,
+      "price": 13,
+      "icon": "🔗",
+      "image": "https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-094",
+      "name": "Parafuso Sextavado M8 (100 un.)",
+      "category": "Ferragens",
+      "qty": 25,
+      "cost": 18,
+      "price": 29,
+      "icon": "🔩",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-095",
+      "name": "Porca M8 (100 un.)",
+      "category": "Ferragens",
+      "qty": 21,
+      "cost": 9,
+      "price": 15,
+      "icon": "🔩",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-096",
+      "name": "Arruela Lisa M8 (100 un.)",
+      "category": "Ferragens",
+      "qty": 18,
+      "cost": 6,
+      "price": 11,
+      "icon": "🔩",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-097",
+      "name": "Fita Isolante 20m",
+      "category": "Ferragens",
+      "qty": 34,
+      "cost": 5,
+      "price": 8.5,
+      "icon": "🧻",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-098",
+      "name": "Silicone Acético 280g",
+      "category": "Ferragens",
+      "qty": 13,
+      "cost": 17,
+      "price": 27,
+      "icon": "🧴",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-099",
+      "name": "Cola Instantânea 20g",
+      "category": "Ferragens",
+      "qty": 26,
+      "cost": 7,
+      "price": 12,
+      "icon": "🧴",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=320&q=80"
+    },
+    {
+      "id": "LS-100",
+      "name": "Pilha AA Alcalina (4 un.)",
+      "category": "Elétrica",
+      "qty": 35,
+      "cost": 9,
+      "price": 15,
+      "icon": "🔋",
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=320&q=80"
+    }
+  ]
+}

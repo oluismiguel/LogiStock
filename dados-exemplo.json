@@ -1,0 +1,1408 @@
+{
+  "app": "LogiStock",
+  "version": "2.0",
+  "finance": [
+    {
+      "id": "MOV-001",
+      "date": "2026-10-15T21:40:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Caixa de Papelão Kraft 40x30x20",
+      "amount": 2.5
+    },
+    {
+      "id": "MOV-002",
+      "date": "2026-10-02T14:23:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Fita Adesiva Transparente 48mm",
+      "amount": 12.98
+    },
+    {
+      "id": "MOV-003",
+      "date": "2026-09-19T07:06:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Palete de Madeira PBR 100x120",
+      "amount": 162.0
+    },
+    {
+      "id": "MOV-004",
+      "date": "2026-09-05T23:49:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Saco de Ráfia 60x90cm",
+      "amount": 16.64
+    },
+    {
+      "id": "MOV-005",
+      "date": "2026-08-24T17:32:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Etiqueta Térmica 10x15cm (Rolo)",
+      "amount": 126.0
+    },
+    {
+      "id": "MOV-006",
+      "date": "2026-08-11T10:15:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Carrinho Plataforma 300kg",
+      "amount": 1920.0
+    },
+    {
+      "id": "MOV-007",
+      "date": "2026-07-29T02:58:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Filme Stretch 500mm",
+      "amount": 246.4
+    },
+    {
+      "id": "MOV-008",
+      "date": "2026-10-14T19:41:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Luva de Proteção Tamanho G",
+      "amount": 76.8
+    },
+    {
+      "id": "MOV-009",
+      "date": "2026-10-01T13:24:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Bobina de Plástico Bolha 1,2m",
+      "amount": 561.6
+    },
+    {
+      "id": "MOV-010",
+      "date": "2026-09-18T06:07:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Envelope de Segurança 26x36cm",
+      "amount": 10.5
+    },
+    {
+      "id": "MOV-011",
+      "date": "2026-09-04T22:50:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Caixa para E-commerce P",
+      "amount": 15.4
+    },
+    {
+      "id": "MOV-012",
+      "date": "2026-08-23T16:33:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Caixa para E-commerce M",
+      "amount": 27.72
+    },
+    {
+      "id": "MOV-013",
+      "date": "2026-08-10T09:16:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Caixa para E-commerce G",
+      "amount": 4.2
+    },
+    {
+      "id": "MOV-014",
+      "date": "2026-07-28T01:59:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Fita Gomada Reforçada",
+      "amount": 31.2
+    },
+    {
+      "id": "MOV-015",
+      "date": "2026-10-13T18:42:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Dispensador de Fita Manual",
+      "amount": 117.6
+    },
+    {
+      "id": "MOV-016",
+      "date": "2026-09-30T12:25:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Estilete Profissional",
+      "amount": 38.0
+    },
+    {
+      "id": "MOV-017",
+      "date": "2026-09-17T05:08:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Lâmina para Estilete (10 un.)",
+      "amount": 33.0
+    },
+    {
+      "id": "MOV-018",
+      "date": "2026-09-03T21:51:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Marcador Permanente Preto",
+      "amount": 20.16
+    },
+    {
+      "id": "MOV-019",
+      "date": "2026-08-22T15:34:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Caneta Esferográfica Azul",
+      "amount": 8.19
+    },
+    {
+      "id": "MOV-020",
+      "date": "2026-08-09T08:17:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Papel A4 500 folhas",
+      "amount": 268.8
+    },
+    {
+      "id": "MOV-021",
+      "date": "2026-07-27T01:00:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Prancheta A4",
+      "amount": 72.0
+    },
+    {
+      "id": "MOV-022",
+      "date": "2026-10-12T17:43:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Calculadora de Mesa 12 dígitos",
+      "amount": 418.0
+    },
+    {
+      "id": "MOV-023",
+      "date": "2026-09-29T11:26:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Leitor de Código de Barras USB",
+      "amount": 1914.0
+    },
+    {
+      "id": "MOV-024",
+      "date": "2026-09-16T04:09:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Impressora de Etiquetas Térmica",
+      "amount": 9048.0
+    },
+    {
+      "id": "MOV-025",
+      "date": "2026-09-03T20:52:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Rolo Etiqueta Térmica 100x150",
+      "amount": 30.8
+    },
+    {
+      "id": "MOV-026",
+      "date": "2026-08-21T14:35:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Ribbon Cera 110x74mm",
+      "amount": 36.0
+    },
+    {
+      "id": "MOV-027",
+      "date": "2026-08-08T07:18:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Balança Digital 30kg",
+      "amount": 627.0
+    },
+    {
+      "id": "MOV-028",
+      "date": "2026-07-26T00:01:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Balança de Bancada 100kg",
+      "amount": 2304.0
+    },
+    {
+      "id": "MOV-029",
+      "date": "2026-10-11T16:44:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Transpaleteira Manual 2,5t",
+      "amount": 9425.0
+    },
+    {
+      "id": "MOV-030",
+      "date": "2026-09-28T10:27:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Cinta de Amarração 5t",
+      "amount": 268.8
+    },
+    {
+      "id": "MOV-031",
+      "date": "2026-09-15T03:10:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Corda Polipropileno 10mm (20m)",
+      "amount": 196.0
+    },
+    {
+      "id": "MOV-032",
+      "date": "2026-09-02T19:53:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Filme Stretch Mini 100mm",
+      "amount": 70.4
+    },
+    {
+      "id": "MOV-033",
+      "date": "2026-08-20T13:36:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Cantoneira de Papelão 1m",
+      "amount": 12.96
+    },
+    {
+      "id": "MOV-034",
+      "date": "2026-08-07T06:19:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Separador de Papelão",
+      "amount": 4.55
+    },
+    {
+      "id": "MOV-035",
+      "date": "2026-07-24T23:02:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Saco Zip 20x30cm (100 un.)",
+      "amount": 292.6
+    },
+    {
+      "id": "MOV-036",
+      "date": "2026-10-10T15:45:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Saco Plástico 40x60cm (100 un.)",
+      "amount": 300.0
+    },
+    {
+      "id": "MOV-037",
+      "date": "2026-09-27T09:28:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Lacre de Segurança Numerado",
+      "amount": 0.72
+    },
+    {
+      "id": "MOV-038",
+      "date": "2026-09-14T02:11:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Cadeado Latão 40mm",
+      "amount": 43.2
+    },
+    {
+      "id": "MOV-039",
+      "date": "2026-09-01T18:54:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Colete Refletivo G",
+      "amount": 54.6
+    },
+    {
+      "id": "MOV-040",
+      "date": "2026-08-19T12:37:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Capacete de Segurança Branco",
+      "amount": 123.2
+    },
+    {
+      "id": "MOV-041",
+      "date": "2026-08-06T05:20:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Óculos de Proteção Incolor",
+      "amount": 27.5
+    },
+    {
+      "id": "MOV-042",
+      "date": "2026-07-23T22:03:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Protetor Auricular Plug (par)",
+      "amount": 7.26
+    },
+    {
+      "id": "MOV-043",
+      "date": "2026-10-09T14:46:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Botina de Segurança nº 40",
+      "amount": 571.2
+    },
+    {
+      "id": "MOV-044",
+      "date": "2026-09-26T08:29:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Luva Nitrílica Caixa 100 un.",
+      "amount": 291.2
+    },
+    {
+      "id": "MOV-045",
+      "date": "2026-09-13T01:12:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Máscara PFF2 (un.)",
+      "amount": 22.68
+    },
+    {
+      "id": "MOV-046",
+      "date": "2026-08-31T17:55:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Extintor ABC 6kg",
+      "amount": 2100.0
+    },
+    {
+      "id": "MOV-047",
+      "date": "2026-08-18T11:38:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Kit Primeiros Socorros",
+      "amount": 907.5
+    },
+    {
+      "id": "MOV-048",
+      "date": "2026-08-05T04:21:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Lanterna LED Recarregável",
+      "amount": 504.0
+    },
+    {
+      "id": "MOV-049",
+      "date": "2026-07-23T21:04:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Extensão Elétrica 10m",
+      "amount": 54.6
+    },
+    {
+      "id": "MOV-050",
+      "date": "2026-10-08T13:47:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Filtro de Linha 6 tomadas",
+      "amount": 81.2
+    },
+    {
+      "id": "MOV-051",
+      "date": "2026-09-25T07:30:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Roteador Wi-Fi Dual Band",
+      "amount": 630.0
+    },
+    {
+      "id": "MOV-052",
+      "date": "2026-09-12T00:13:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Cabo USB-C 1m",
+      "amount": 52.8
+    },
+    {
+      "id": "MOV-053",
+      "date": "2026-08-30T16:56:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Mouse USB Óptico",
+      "amount": 108.0
+    },
+    {
+      "id": "MOV-054",
+      "date": "2026-08-17T10:39:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Teclado USB ABNT2",
+      "amount": 374.4
+    },
+    {
+      "id": "MOV-055",
+      "date": "2026-08-04T03:22:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Monitor LED 24 polegadas",
+      "amount": 6076.0
+    },
+    {
+      "id": "MOV-056",
+      "date": "2026-07-22T20:05:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Notebook Corporativo i5",
+      "amount": 22400.0
+    },
+    {
+      "id": "MOV-057",
+      "date": "2026-10-07T12:48:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Headset USB com Microfone",
+      "amount": 940.5
+    },
+    {
+      "id": "MOV-058",
+      "date": "2026-09-24T06:31:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Webcam Full HD",
+      "amount": 1620.0
+    },
+    {
+      "id": "MOV-059",
+      "date": "2026-09-10T23:14:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Suporte para Monitor",
+      "amount": 1072.5
+    },
+    {
+      "id": "MOV-060",
+      "date": "2026-08-29T15:57:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Cadeira Ergonômica",
+      "amount": 11592.0
+    },
+    {
+      "id": "MOV-061",
+      "date": "2026-08-16T09:40:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Mesa de Escritório 120cm",
+      "amount": 420.0
+    },
+    {
+      "id": "MOV-062",
+      "date": "2026-08-03T02:23:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Estante Metálica 5 Prateleiras",
+      "amount": 682.0
+    },
+    {
+      "id": "MOV-063",
+      "date": "2026-07-21T19:06:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Armário de Aço 2 Portas",
+      "amount": 2808.0
+    },
+    {
+      "id": "MOV-064",
+      "date": "2026-10-06T11:49:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Caixa Organizadora 30L",
+      "amount": 124.8
+    },
+    {
+      "id": "MOV-065",
+      "date": "2026-09-23T05:32:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Caixa Plástica Vazado 50L",
+      "amount": 273.0
+    },
+    {
+      "id": "MOV-066",
+      "date": "2026-09-09T22:15:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Contentor Plástico 120L",
+      "amount": 1110.0
+    },
+    {
+      "id": "MOV-067",
+      "date": "2026-08-28T14:58:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Contentor com Rodas 240L",
+      "amount": 3003.0
+    },
+    {
+      "id": "MOV-068",
+      "date": "2026-08-15T07:41:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Prateleira Plástica 4 níveis",
+      "amount": 1152.0
+    },
+    {
+      "id": "MOV-069",
+      "date": "2026-08-02T01:24:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Gaveteiro Organizador 24 gavetas",
+      "amount": 1111.5
+    },
+    {
+      "id": "MOV-070",
+      "date": "2026-07-20T18:07:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Saco de Lixo Reforçado 100L (100 un.)",
+      "amount": 588.0
+    },
+    {
+      "id": "MOV-071",
+      "date": "2026-10-05T10:50:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Detergente Neutro 5L",
+      "amount": 198.0
+    },
+    {
+      "id": "MOV-072",
+      "date": "2026-09-22T04:33:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Desinfetante 5L",
+      "amount": 277.2
+    },
+    {
+      "id": "MOV-073",
+      "date": "2026-09-09T21:16:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Álcool 70% 1L",
+      "amount": 8.4
+    },
+    {
+      "id": "MOV-074",
+      "date": "2026-08-27T13:59:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Pano de Microfibra (kit 5)",
+      "amount": 31.2
+    },
+    {
+      "id": "MOV-075",
+      "date": "2026-08-14T06:42:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Vassoura Industrial",
+      "amount": 105.0
+    },
+    {
+      "id": "MOV-076",
+      "date": "2026-08-01T00:25:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Rodo 60cm",
+      "amount": 72.0
+    },
+    {
+      "id": "MOV-077",
+      "date": "2026-07-19T17:08:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Balde Plástico 20L",
+      "amount": 88.0
+    },
+    {
+      "id": "MOV-078",
+      "date": "2026-10-04T09:51:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Papel Toalha Interfolhado (1000 fls.)",
+      "amount": 100.8
+    },
+    {
+      "id": "MOV-079",
+      "date": "2026-09-21T03:34:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Sabonete Líquido 5L",
+      "amount": 291.2
+    },
+    {
+      "id": "MOV-080",
+      "date": "2026-09-08T20:17:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Copo Descartável 200ml (100 un.)",
+      "amount": 56.0
+    },
+    {
+      "id": "MOV-081",
+      "date": "2026-08-26T13:00:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Água Mineral 500ml (fardo 12)",
+      "amount": 162.0
+    },
+    {
+      "id": "MOV-082",
+      "date": "2026-08-13T05:43:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Café Torrado 500g",
+      "amount": 176.0
+    },
+    {
+      "id": "MOV-083",
+      "date": "2026-07-30T23:26:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Açúcar Refinado 5kg",
+      "amount": 250.8
+    },
+    {
+      "id": "MOV-084",
+      "date": "2026-07-18T16:09:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Filtro de Café nº 103",
+      "amount": 70.2
+    },
+    {
+      "id": "MOV-085",
+      "date": "2026-10-03T08:52:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Garrafa Térmica 1L",
+      "amount": 67.2
+    },
+    {
+      "id": "MOV-086",
+      "date": "2026-09-20T02:35:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Kit Ferramentas 100 peças",
+      "amount": 360.0
+    },
+    {
+      "id": "MOV-087",
+      "date": "2026-09-07T19:18:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Furadeira de Impacto 650W",
+      "amount": 792.0
+    },
+    {
+      "id": "MOV-088",
+      "date": "2026-08-25T12:01:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Parafusadeira a Bateria",
+      "amount": 1488.0
+    },
+    {
+      "id": "MOV-089",
+      "date": "2026-08-12T04:44:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Trena 5m",
+      "amount": 78.0
+    },
+    {
+      "id": "MOV-090",
+      "date": "2026-07-29T22:27:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Alicate Universal 8 pol.",
+      "amount": 184.8
+    },
+    {
+      "id": "MOV-091",
+      "date": "2026-10-15T15:10:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Chave de Fenda Kit 6 peças",
+      "amount": 196.0
+    },
+    {
+      "id": "MOV-092",
+      "date": "2026-10-02T07:53:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Martelo Unha 25mm",
+      "amount": 228.8
+    },
+    {
+      "id": "MOV-093",
+      "date": "2026-09-19T01:36:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Abraçadeira Nylon 200mm (100 un.)",
+      "amount": 86.4
+    },
+    {
+      "id": "MOV-094",
+      "date": "2026-09-06T18:19:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Parafuso Sextavado M8 (100 un.)",
+      "amount": 234.0
+    },
+    {
+      "id": "MOV-095",
+      "date": "2026-08-24T11:02:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Porca M8 (100 un.)",
+      "amount": 138.6
+    },
+    {
+      "id": "MOV-096",
+      "date": "2026-08-11T03:45:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Arruela Lisa M8 (100 un.)",
+      "amount": 72.0
+    },
+    {
+      "id": "MOV-097",
+      "date": "2026-07-29T21:28:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Fita Isolante 20m",
+      "amount": 5.5
+    },
+    {
+      "id": "MOV-098",
+      "date": "2026-10-14T14:11:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Silicone Acético 280g",
+      "amount": 40.8
+    },
+    {
+      "id": "MOV-099",
+      "date": "2026-10-01T06:54:32.649401+00:00",
+      "type": "Entrada",
+      "description": "Reposição — Cola Instantânea 20g",
+      "amount": 27.3
+    },
+    {
+      "id": "MOV-100",
+      "date": "2026-09-18T00:37:32.649401+00:00",
+      "type": "Saída",
+      "description": "Baixa por venda — Pilha AA Alcalina (4 un.)",
+      "amount": 50.4
+    }
+  ],
+  "logs": [
+    {
+      "id": "LOG-001",
+      "date": "2026-10-15T21:40:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Estoque atualizado",
+      "details": "CX-KFT-001 — Caixa de Papelão Kraft 40x30x20 | evento demonstrativo #1"
+    },
+    {
+      "id": "LOG-002",
+      "date": "2026-10-02T14:23:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Produto cadastrado",
+      "details": "FT-ADH-048 — Fita Adesiva Transparente 48mm | evento demonstrativo #2"
+    },
+    {
+      "id": "LOG-003",
+      "date": "2026-09-19T07:06:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Lançamento financeiro",
+      "details": "PL-MAD-100 — Palete de Madeira PBR 100x120 | evento demonstrativo #3"
+    },
+    {
+      "id": "LOG-004",
+      "date": "2026-09-05T23:49:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Inventário conferido",
+      "details": "SC-RFA-060 — Saco de Ráfia 60x90cm | evento demonstrativo #4"
+    },
+    {
+      "id": "LOG-005",
+      "date": "2026-08-24T17:32:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Relatório consultado",
+      "details": "ET-TER-1015 — Etiqueta Térmica 10x15cm (Rolo) | evento demonstrativo #5"
+    },
+    {
+      "id": "LOG-006",
+      "date": "2026-08-11T10:15:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Estoque atualizado",
+      "details": "CR-PLT-300 — Carrinho Plataforma 300kg | evento demonstrativo #6"
+    },
+    {
+      "id": "LOG-007",
+      "date": "2026-07-29T02:58:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Produto cadastrado",
+      "details": "FL-STR-500 — Filme Stretch 500mm | evento demonstrativo #7"
+    },
+    {
+      "id": "LOG-008",
+      "date": "2026-10-14T19:41:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Lançamento financeiro",
+      "details": "LV-PRO-010 — Luva de Proteção Tamanho G | evento demonstrativo #8"
+    },
+    {
+      "id": "LOG-009",
+      "date": "2026-10-01T13:24:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Inventário conferido",
+      "details": "LS-009 — Bobina de Plástico Bolha 1,2m | evento demonstrativo #9"
+    },
+    {
+      "id": "LOG-010",
+      "date": "2026-09-18T06:07:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Relatório consultado",
+      "details": "LS-010 — Envelope de Segurança 26x36cm | evento demonstrativo #10"
+    },
+    {
+      "id": "LOG-011",
+      "date": "2026-09-04T22:50:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Estoque atualizado",
+      "details": "LS-011 — Caixa para E-commerce P | evento demonstrativo #11"
+    },
+    {
+      "id": "LOG-012",
+      "date": "2026-08-23T16:33:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Produto cadastrado",
+      "details": "LS-012 — Caixa para E-commerce M | evento demonstrativo #12"
+    },
+    {
+      "id": "LOG-013",
+      "date": "2026-08-10T09:16:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Lançamento financeiro",
+      "details": "LS-013 — Caixa para E-commerce G | evento demonstrativo #13"
+    },
+    {
+      "id": "LOG-014",
+      "date": "2026-07-28T01:59:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Inventário conferido",
+      "details": "LS-014 — Fita Gomada Reforçada | evento demonstrativo #14"
+    },
+    {
+      "id": "LOG-015",
+      "date": "2026-10-13T18:42:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Relatório consultado",
+      "details": "LS-015 — Dispensador de Fita Manual | evento demonstrativo #15"
+    },
+    {
+      "id": "LOG-016",
+      "date": "2026-09-30T12:25:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Estoque atualizado",
+      "details": "LS-016 — Estilete Profissional | evento demonstrativo #16"
+    },
+    {
+      "id": "LOG-017",
+      "date": "2026-09-17T05:08:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Produto cadastrado",
+      "details": "LS-017 — Lâmina para Estilete (10 un.) | evento demonstrativo #17"
+    },
+    {
+      "id": "LOG-018",
+      "date": "2026-09-03T21:51:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Lançamento financeiro",
+      "details": "LS-018 — Marcador Permanente Preto | evento demonstrativo #18"
+    },
+    {
+      "id": "LOG-019",
+      "date": "2026-08-22T15:34:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Inventário conferido",
+      "details": "LS-019 — Caneta Esferográfica Azul | evento demonstrativo #19"
+    },
+    {
+      "id": "LOG-020",
+      "date": "2026-08-09T08:17:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Relatório consultado",
+      "details": "LS-020 — Papel A4 500 folhas | evento demonstrativo #20"
+    },
+    {
+      "id": "LOG-021",
+      "date": "2026-07-27T01:00:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Estoque atualizado",
+      "details": "LS-021 — Prancheta A4 | evento demonstrativo #21"
+    },
+    {
+      "id": "LOG-022",
+      "date": "2026-10-12T17:43:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Produto cadastrado",
+      "details": "LS-022 — Calculadora de Mesa 12 dígitos | evento demonstrativo #22"
+    },
+    {
+      "id": "LOG-023",
+      "date": "2026-09-29T11:26:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Lançamento financeiro",
+      "details": "LS-023 — Leitor de Código de Barras USB | evento demonstrativo #23"
+    },
+    {
+      "id": "LOG-024",
+      "date": "2026-09-16T04:09:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Inventário conferido",
+      "details": "LS-024 — Impressora de Etiquetas Térmica | evento demonstrativo #24"
+    },
+    {
+      "id": "LOG-025",
+      "date": "2026-09-03T20:52:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Relatório consultado",
+      "details": "LS-025 — Rolo Etiqueta Térmica 100x150 | evento demonstrativo #25"
+    },
+    {
+      "id": "LOG-026",
+      "date": "2026-08-21T14:35:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Estoque atualizado",
+      "details": "LS-026 — Ribbon Cera 110x74mm | evento demonstrativo #26"
+    },
+    {
+      "id": "LOG-027",
+      "date": "2026-08-08T07:18:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Produto cadastrado",
+      "details": "LS-027 — Balança Digital 30kg | evento demonstrativo #27"
+    },
+    {
+      "id": "LOG-028",
+      "date": "2026-07-26T00:01:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Lançamento financeiro",
+      "details": "LS-028 — Balança de Bancada 100kg | evento demonstrativo #28"
+    },
+    {
+      "id": "LOG-029",
+      "date": "2026-10-11T16:44:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Inventário conferido",
+      "details": "LS-029 — Transpaleteira Manual 2,5t | evento demonstrativo #29"
+    },
+    {
+      "id": "LOG-030",
+      "date": "2026-09-28T10:27:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Relatório consultado",
+      "details": "LS-030 — Cinta de Amarração 5t | evento demonstrativo #30"
+    },
+    {
+      "id": "LOG-031",
+      "date": "2026-09-15T03:10:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Estoque atualizado",
+      "details": "LS-031 — Corda Polipropileno 10mm (20m) | evento demonstrativo #31"
+    },
+    {
+      "id": "LOG-032",
+      "date": "2026-09-02T19:53:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Produto cadastrado",
+      "details": "LS-032 — Filme Stretch Mini 100mm | evento demonstrativo #32"
+    },
+    {
+      "id": "LOG-033",
+      "date": "2026-08-20T13:36:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Lançamento financeiro",
+      "details": "LS-033 — Cantoneira de Papelão 1m | evento demonstrativo #33"
+    },
+    {
+      "id": "LOG-034",
+      "date": "2026-08-07T06:19:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Inventário conferido",
+      "details": "LS-034 — Separador de Papelão | evento demonstrativo #34"
+    },
+    {
+      "id": "LOG-035",
+      "date": "2026-07-24T23:02:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Relatório consultado",
+      "details": "LS-035 — Saco Zip 20x30cm (100 un.) | evento demonstrativo #35"
+    },
+    {
+      "id": "LOG-036",
+      "date": "2026-10-10T15:45:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Estoque atualizado",
+      "details": "LS-036 — Saco Plástico 40x60cm (100 un.) | evento demonstrativo #36"
+    },
+    {
+      "id": "LOG-037",
+      "date": "2026-09-27T09:28:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Produto cadastrado",
+      "details": "LS-037 — Lacre de Segurança Numerado | evento demonstrativo #37"
+    },
+    {
+      "id": "LOG-038",
+      "date": "2026-09-14T02:11:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Lançamento financeiro",
+      "details": "LS-038 — Cadeado Latão 40mm | evento demonstrativo #38"
+    },
+    {
+      "id": "LOG-039",
+      "date": "2026-09-01T18:54:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Inventário conferido",
+      "details": "LS-039 — Colete Refletivo G | evento demonstrativo #39"
+    },
+    {
+      "id": "LOG-040",
+      "date": "2026-08-19T12:37:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Relatório consultado",
+      "details": "LS-040 — Capacete de Segurança Branco | evento demonstrativo #40"
+    },
+    {
+      "id": "LOG-041",
+      "date": "2026-08-06T05:20:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Estoque atualizado",
+      "details": "LS-041 — Óculos de Proteção Incolor | evento demonstrativo #41"
+    },
+    {
+      "id": "LOG-042",
+      "date": "2026-07-23T22:03:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Produto cadastrado",
+      "details": "LS-042 — Protetor Auricular Plug (par) | evento demonstrativo #42"
+    },
+    {
+      "id": "LOG-043",
+      "date": "2026-10-09T14:46:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Lançamento financeiro",
+      "details": "LS-043 — Botina de Segurança nº 40 | evento demonstrativo #43"
+    },
+    {
+      "id": "LOG-044",
+      "date": "2026-09-26T08:29:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Inventário conferido",
+      "details": "LS-044 — Luva Nitrílica Caixa 100 un. | evento demonstrativo #44"
+    },
+    {
+      "id": "LOG-045",
+      "date": "2026-09-13T01:12:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Relatório consultado",
+      "details": "LS-045 — Máscara PFF2 (un.) | evento demonstrativo #45"
+    },
+    {
+      "id": "LOG-046",
+      "date": "2026-08-31T17:55:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Estoque atualizado",
+      "details": "LS-046 — Extintor ABC 6kg | evento demonstrativo #46"
+    },
+    {
+      "id": "LOG-047",
+      "date": "2026-08-18T11:38:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Produto cadastrado",
+      "details": "LS-047 — Kit Primeiros Socorros | evento demonstrativo #47"
+    },
+    {
+      "id": "LOG-048",
+      "date": "2026-08-05T04:21:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Lançamento financeiro",
+      "details": "LS-048 — Lanterna LED Recarregável | evento demonstrativo #48"
+    },
+    {
+      "id": "LOG-049",
+      "date": "2026-07-23T21:04:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Inventário conferido",
+      "details": "LS-049 — Extensão Elétrica 10m | evento demonstrativo #49"
+    },
+    {
+      "id": "LOG-050",
+      "date": "2026-10-08T13:47:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Relatório consultado",
+      "details": "LS-050 — Filtro de Linha 6 tomadas | evento demonstrativo #50"
+    },
+    {
+      "id": "LOG-051",
+      "date": "2026-09-25T07:30:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Estoque atualizado",
+      "details": "LS-051 — Roteador Wi-Fi Dual Band | evento demonstrativo #51"
+    },
+    {
+      "id": "LOG-052",
+      "date": "2026-09-12T00:13:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Produto cadastrado",
+      "details": "LS-052 — Cabo USB-C 1m | evento demonstrativo #52"
+    },
+    {
+      "id": "LOG-053",
+      "date": "2026-08-30T16:56:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Lançamento financeiro",
+      "details": "LS-053 — Mouse USB Óptico | evento demonstrativo #53"
+    },
+    {
+      "id": "LOG-054",
+      "date": "2026-08-17T10:39:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Inventário conferido",
+      "details": "LS-054 — Teclado USB ABNT2 | evento demonstrativo #54"
+    },
+    {
+      "id": "LOG-055",
+      "date": "2026-08-04T03:22:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Relatório consultado",
+      "details": "LS-055 — Monitor LED 24 polegadas | evento demonstrativo #55"
+    },
+    {
+      "id": "LOG-056",
+      "date": "2026-07-22T20:05:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Estoque atualizado",
+      "details": "LS-056 — Notebook Corporativo i5 | evento demonstrativo #56"
+    },
+    {
+      "id": "LOG-057",
+      "date": "2026-10-07T12:48:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Produto cadastrado",
+      "details": "LS-057 — Headset USB com Microfone | evento demonstrativo #57"
+    },
+    {
+      "id": "LOG-058",
+      "date": "2026-09-24T06:31:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Lançamento financeiro",
+      "details": "LS-058 — Webcam Full HD | evento demonstrativo #58"
+    },
+    {
+      "id": "LOG-059",
+      "date": "2026-09-10T23:14:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Inventário conferido",
+      "details": "LS-059 — Suporte para Monitor | evento demonstrativo #59"
+    },
+    {
+      "id": "LOG-060",
+      "date": "2026-08-29T15:57:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Relatório consultado",
+      "details": "LS-060 — Cadeira Ergonômica | evento demonstrativo #60"
+    },
+    {
+      "id": "LOG-061",
+      "date": "2026-08-16T09:40:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Estoque atualizado",
+      "details": "LS-061 — Mesa de Escritório 120cm | evento demonstrativo #61"
+    },
+    {
+      "id": "LOG-062",
+      "date": "2026-08-03T02:23:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Produto cadastrado",
+      "details": "LS-062 — Estante Metálica 5 Prateleiras | evento demonstrativo #62"
+    },
+    {
+      "id": "LOG-063",
+      "date": "2026-07-21T19:06:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Lançamento financeiro",
+      "details": "LS-063 — Armário de Aço 2 Portas | evento demonstrativo #63"
+    },
+    {
+      "id": "LOG-064",
+      "date": "2026-10-06T11:49:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Inventário conferido",
+      "details": "LS-064 — Caixa Organizadora 30L | evento demonstrativo #64"
+    },
+    {
+      "id": "LOG-065",
+      "date": "2026-09-23T05:32:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Relatório consultado",
+      "details": "LS-065 — Caixa Plástica Vazado 50L | evento demonstrativo #65"
+    },
+    {
+      "id": "LOG-066",
+      "date": "2026-09-09T22:15:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Estoque atualizado",
+      "details": "LS-066 — Contentor Plástico 120L | evento demonstrativo #66"
+    },
+    {
+      "id": "LOG-067",
+      "date": "2026-08-28T14:58:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Produto cadastrado",
+      "details": "LS-067 — Contentor com Rodas 240L | evento demonstrativo #67"
+    },
+    {
+      "id": "LOG-068",
+      "date": "2026-08-15T07:41:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Lançamento financeiro",
+      "details": "LS-068 — Prateleira Plástica 4 níveis | evento demonstrativo #68"
+    },
+    {
+      "id": "LOG-069",
+      "date": "2026-08-02T01:24:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Inventário conferido",
+      "details": "LS-069 — Gaveteiro Organizador 24 gavetas | evento demonstrativo #69"
+    },
+    {
+      "id": "LOG-070",
+      "date": "2026-07-20T18:07:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Relatório consultado",
+      "details": "LS-070 — Saco de Lixo Reforçado 100L (100 un.) | evento demonstrativo #70"
+    },
+    {
+      "id": "LOG-071",
+      "date": "2026-10-05T10:50:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Estoque atualizado",
+      "details": "LS-071 — Detergente Neutro 5L | evento demonstrativo #71"
+    },
+    {
+      "id": "LOG-072",
+      "date": "2026-09-22T04:33:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Produto cadastrado",
+      "details": "LS-072 — Desinfetante 5L | evento demonstrativo #72"
+    },
+    {
+      "id": "LOG-073",
+      "date": "2026-09-09T21:16:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Lançamento financeiro",
+      "details": "LS-073 — Álcool 70% 1L | evento demonstrativo #73"
+    },
+    {
+      "id": "LOG-074",
+      "date": "2026-08-27T13:59:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Inventário conferido",
+      "details": "LS-074 — Pano de Microfibra (kit 5) | evento demonstrativo #74"
+    },
+    {
+      "id": "LOG-075",
+      "date": "2026-08-14T06:42:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Relatório consultado",
+      "details": "LS-075 — Vassoura Industrial | evento demonstrativo #75"
+    },
+    {
+      "id": "LOG-076",
+      "date": "2026-08-01T00:25:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Estoque atualizado",
+      "details": "LS-076 — Rodo 60cm | evento demonstrativo #76"
+    },
+    {
+      "id": "LOG-077",
+      "date": "2026-07-19T17:08:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Produto cadastrado",
+      "details": "LS-077 — Balde Plástico 20L | evento demonstrativo #77"
+    },
+    {
+      "id": "LOG-078",
+      "date": "2026-10-04T09:51:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Lançamento financeiro",
+      "details": "LS-078 — Papel Toalha Interfolhado (1000 fls.) | evento demonstrativo #78"
+    },
+    {
+      "id": "LOG-079",
+      "date": "2026-09-21T03:34:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Inventário conferido",
+      "details": "LS-079 — Sabonete Líquido 5L | evento demonstrativo #79"
+    },
+    {
+      "id": "LOG-080",
+      "date": "2026-09-08T20:17:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Relatório consultado",
+      "details": "LS-080 — Copo Descartável 200ml (100 un.) | evento demonstrativo #80"
+    },
+    {
+      "id": "LOG-081",
+      "date": "2026-08-26T13:00:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Estoque atualizado",
+      "details": "LS-081 — Água Mineral 500ml (fardo 12) | evento demonstrativo #81"
+    },
+    {
+      "id": "LOG-082",
+      "date": "2026-08-13T05:43:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Produto cadastrado",
+      "details": "LS-082 — Café Torrado 500g | evento demonstrativo #82"
+    },
+    {
+      "id": "LOG-083",
+      "date": "2026-07-30T23:26:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Lançamento financeiro",
+      "details": "LS-083 — Açúcar Refinado 5kg | evento demonstrativo #83"
+    },
+    {
+      "id": "LOG-084",
+      "date": "2026-07-18T16:09:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Inventário conferido",
+      "details": "LS-084 — Filtro de Café nº 103 | evento demonstrativo #84"
+    },
+    {
+      "id": "LOG-085",
+      "date": "2026-10-03T08:52:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Relatório consultado",
+      "details": "LS-085 — Garrafa Térmica 1L | evento demonstrativo #85"
+    },
+    {
+      "id": "LOG-086",
+      "date": "2026-09-20T02:35:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Estoque atualizado",
+      "details": "LS-086 — Kit Ferramentas 100 peças | evento demonstrativo #86"
+    },
+    {
+      "id": "LOG-087",
+      "date": "2026-09-07T19:18:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Produto cadastrado",
+      "details": "LS-087 — Furadeira de Impacto 650W | evento demonstrativo #87"
+    },
+    {
+      "id": "LOG-088",
+      "date": "2026-08-25T12:01:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Lançamento financeiro",
+      "details": "LS-088 — Parafusadeira a Bateria | evento demonstrativo #88"
+    },
+    {
+      "id": "LOG-089",
+      "date": "2026-08-12T04:44:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Inventário conferido",
+      "details": "LS-089 — Trena 5m | evento demonstrativo #89"
+    },
+    {
+      "id": "LOG-090",
+      "date": "2026-07-29T22:27:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Relatório consultado",
+      "details": "LS-090 — Alicate Universal 8 pol. | evento demonstrativo #90"
+    },
+    {
+      "id": "LOG-091",
+      "date": "2026-10-15T15:10:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Estoque atualizado",
+      "details": "LS-091 — Chave de Fenda Kit 6 peças | evento demonstrativo #91"
+    },
+    {
+      "id": "LOG-092",
+      "date": "2026-10-02T07:53:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Produto cadastrado",
+      "details": "LS-092 — Martelo Unha 25mm | evento demonstrativo #92"
+    },
+    {
+      "id": "LOG-093",
+      "date": "2026-09-19T01:36:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Lançamento financeiro",
+      "details": "LS-093 — Abraçadeira Nylon 200mm (100 un.) | evento demonstrativo #93"
+    },
+    {
+      "id": "LOG-094",
+      "date": "2026-09-06T18:19:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Inventário conferido",
+      "details": "LS-094 — Parafuso Sextavado M8 (100 un.) | evento demonstrativo #94"
+    },
+    {
+      "id": "LOG-095",
+      "date": "2026-08-24T11:02:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Relatório consultado",
+      "details": "LS-095 — Porca M8 (100 un.) | evento demonstrativo #95"
+    },
+    {
+      "id": "LOG-096",
+      "date": "2026-08-11T03:45:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Estoque atualizado",
+      "details": "LS-096 — Arruela Lisa M8 (100 un.) | evento demonstrativo #96"
+    },
+    {
+      "id": "LOG-097",
+      "date": "2026-07-29T21:28:32.649401+00:00",
+      "user": "João da Silva",
+      "action": "Produto cadastrado",
+      "details": "LS-097 — Fita Isolante 20m | evento demonstrativo #97"
+    },
+    {
+      "id": "LOG-098",
+      "date": "2026-10-14T14:11:32.649401+00:00",
+      "user": "Mariana Costa",
+      "action": "Lançamento financeiro",
+      "details": "LS-098 — Silicone Acético 280g | evento demonstrativo #98"
+    },
+    {
+      "id": "LOG-099",
+      "date": "2026-10-01T06:54:32.649401+00:00",
+      "user": "Carlos Souza",
+      "action": "Inventário conferido",
+      "details": "LS-099 — Cola Instantânea 20g | evento demonstrativo #99"
+    },
+    {
+      "id": "LOG-100",
+      "date": "2026-09-18T00:37:32.649401+00:00",
+      "user": "Sistema",
+      "action": "Relatório consultado",
+      "details": "LS-100 — Pilha AA Alcalina (4 un.) | evento demonstrativo #100"
+    }
+  ]
+}

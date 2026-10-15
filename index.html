@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#080808">
   <title>LogiStock — Controle de Estoque</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modules.css">
 
 </head>
 <body>
@@ -33,18 +34,40 @@
           <div class="brand-mark" aria-hidden="true">⬡</div>
           <div><strong>Logi<span>Stock</span></strong><small>CONTROLE DE ESTOQUE</small></div>
         </div>
-        <label class="search" aria-label="Pesquisar produtos">
-          <span>⌕</span>
-          <input id="globalSearch" type="search" placeholder="Pesquisar produto, código ou categoria..." autocomplete="off">
-          <kbd>Ctrl + K</kbd>
-        </label>
         <div class="profile">
-          <span class="bell" aria-label="Notificações">♧</span>
-          <div class="avatar">JD</div>
-          <div class="person-name"><strong>João da Silva</strong><small>Administrador</small></div>
-          <span class="chevron">⌄</span>
+          <div class="notification-wrap">
+            <button class="notification-button" id="notificationButton" type="button" aria-label="Abrir notificações" aria-expanded="false" title="Notificações">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M10 21h4"/></svg><i id="notificationCount" hidden>0</i>
+            </button>
+            <section class="notification-panel" id="notificationPanel" hidden aria-label="Notificações do sistema">
+              <div class="dropdown-heading"><strong>Notificações</strong><button type="button" id="markNotificationsRead">Marcar como lidas</button></div>
+              <div id="notificationList"></div>
+            </section>
+          </div>
+          <button class="profile-trigger" id="profileTrigger" type="button" aria-label="Editar perfil local" title="Editar perfil">
+            <span class="avatar" id="profileAvatar">JD</span>
+            <span class="person-name"><strong id="profileName">João da Silva</strong><small>Perfil local</small></span>
+          </button>
+          <button class="profile-menu-trigger" id="profileMenuTrigger" type="button" aria-label="Opções da conta" aria-expanded="false" title="Opções">⌄</button>
+          <section class="profile-menu" id="profileMenu" hidden aria-label="Opções da conta">
+            <button type="button" id="themeToggle"><span aria-hidden="true">☼</span> Mudar para tema claro</button>
+            <button type="button" id="logoutButton"><span aria-hidden="true">⇥</span> Sair da conta</button>
+          </section>
         </div>
       </header>
+
+      <div class="profile-modal-backdrop" id="profileModalBackdrop" hidden>
+        <section class="profile-modal" role="dialog" aria-modal="true" aria-labelledby="profileModalTitle">
+          <button type="button" class="profile-modal-close" id="closeProfileModal" aria-label="Fechar">×</button>
+          <div class="profile-modal-avatar-wrap"><span class="avatar profile-modal-avatar" id="profileModalAvatar">JD</span></div>
+          <h2 id="profileModalTitle">Personalizar perfil</h2>
+          <p>Altere como seu perfil aparece neste navegador.</p>
+          <label>Nome exibido<input id="profileNameInput" maxlength="60" placeholder="Seu nome"></label>
+          <label class="photo-picker">Foto de perfil<input id="profilePhotoInput" type="file" accept="image/*"></label>
+          <div class="profile-actions"><button type="button" id="saveProfile">Salvar alterações</button><button type="button" id="removeProfilePhoto">Remover foto</button></div>
+          <small>Essas alterações são pessoais e ficam salvas neste navegador.</small>
+        </section>
+      </div>
 
       <main class="main">
         <div class="page-heading">
@@ -68,46 +91,40 @@
 
         <label class="command">
           <span class="prompt">›_</span>
-          <input id="productSearch" type="search" placeholder="Pesquisar ou digitar um comando (Tab para autocompletar)..." autocomplete="off">
+          <input id="productSearch" type="search" placeholder="Pesquisar produto, código ou categoria..." autocomplete="off">
           <kbd>⌘ K</kbd>
         </label>
         <p class="result-count" id="resultCount">8 itens encontrados</p>
 
-        <section class="products" id="products" aria-label="Produtos em estoque">
-          <article class="product" data-search="caixa de papelão kraft cx-kft-001 embalagem">
-            <div class="product-top"><div class="product-image">📦</div><div class="product-info"><div class="product-name">Caixa de Papelão Kraft 40x30x20</div><div class="product-meta"><span>CX-KFT-001</span><span>◇ Embalagem</span></div></div><span class="stock">⬡ 240</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 2,50</strong></div><div><small>Venda</small><strong>R$ 4,20</strong></div><div><small>Lucro</small><strong class="profit">↑ 68,0%</strong></div></div>
-          </article>
-          <article class="product" data-search="fita adesiva transparente ft-adh-048 embalagem">
-            <div class="product-top"><div class="product-image">🧻</div><div class="product-info"><div class="product-name">Fita Adesiva Transparente 48mm</div><div class="product-meta"><span>FT-ADH-048</span><span>◇ Embalagem</span></div></div><span class="stock">⬡ 85</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 5,90</strong></div><div><small>Venda</small><strong>R$ 9,50</strong></div><div><small>Lucro</small><strong class="profit">↑ 61,0%</strong></div></div>
-          </article>
-          <article class="product" data-search="palete de madeira pbr pl-mad-100 transporte">
-            <div class="product-top"><div class="product-image">🪵</div><div class="product-info"><div class="product-name">Palete de Madeira PBR 100x120</div><div class="product-meta"><span>PL-MAD-100</span><span>◇ Transporte</span></div></div><span class="stock">⬡ 32</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 45,00</strong></div><div><small>Venda</small><strong>R$ 68,00</strong></div><div><small>Lucro</small><strong class="profit">↑ 51,1%</strong></div></div>
-          </article>
-          <article class="product" data-search="saco de rafia sc-rfa-060 embalagem">
-            <div class="product-top"><div class="product-image">🧺</div><div class="product-info"><div class="product-name">Saco de Rafia 60x90cm</div><div class="product-meta"><span>SC-RFA-060</span><span>◇ Embalagem</span></div></div><span class="stock">⬡ 8</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 3,20</strong></div><div><small>Venda</small><strong>R$ 5,80</strong></div><div><small>Lucro</small><strong class="profit">↑ 81,2%</strong></div></div>
-          </article>
-          <article class="product" data-search="etiqueta termica et-ter-1015 identificação">
-            <div class="product-top"><div class="product-image">🧻</div><div class="product-info"><div class="product-name">Etiqueta Térmica 10x15cm (Rolo)</div><div class="product-meta"><span>ET-TER-1015</span><span>◇ Identificação</span></div></div><span class="stock">⬡ 56</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 18,00</strong></div><div><small>Venda</small><strong>R$ 29,00</strong></div><div><small>Lucro</small><strong class="profit">↑ 58,3%</strong></div></div>
-          </article>
-          <article class="product" data-search="carrinho plataforma cr-plt-300 transporte">
-            <div class="product-top"><div class="product-image">🛒</div><div class="product-info"><div class="product-name">Carrinho Plataforma 300kg</div><div class="product-meta"><span>CR-PLT-300</span><span>◇ Transporte</span></div></div><span class="stock">⬡ 12</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 320,00</strong></div><div><small>Venda</small><strong>R$ 450,00</strong></div><div><small>Lucro</small><strong class="profit">↑ 40,6%</strong></div></div>
-          </article>
-          <article class="product" data-search="filme stretch fl-str-500 embalagem">
-            <div class="product-top"><div class="product-image">🎞️</div><div class="product-info"><div class="product-name">Filme Stretch 500mm</div><div class="product-meta"><span>FL-STR-500</span><span>◇ Embalagem</span></div></div><span class="stock">⬡ 138</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 32,00</strong></div><div><small>Venda</small><strong>R$ 48,00</strong></div><div><small>Lucro</small><strong class="profit">↑ 50,0%</strong></div></div>
-          </article>
-          <article class="product" data-search="luva de proteção lv-pro-010 segurança">
-            <div class="product-top"><div class="product-image">🧤</div><div class="product-info"><div class="product-name">Luva de Proteção Tamanho G</div><div class="product-meta"><span>LV-PRO-010</span><span>◇ Segurança</span></div></div><span class="stock">⬡ 0</span></div>
-            <div class="product-divider"></div><div class="prices"><div><small>Compra</small><strong>R$ 8,00</strong></div><div><small>Venda</small><strong>R$ 14,00</strong></div><div><small>Estoque</small><strong class="negative">Baixo</strong></div></div>
-          </article>
-        </section>
+        <section class="products" id="products" aria-label="Produtos em estoque" aria-live="polite"></section>
       </main>
+    </section>
+  </div>
+  <button class="add-product-fab" id="addProductFab" type="button" aria-label="Adicionar novo produto" title="Adicionar produto">＋</button>
+  <input type="file" id="profilePhotoInputHidden" accept="image/*" hidden>
+  <div class="modal-backdrop" id="productModal" hidden>
+    <section class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-heading"><div><p class="eyebrow">LOGISTOCK / ESTOQUE</p><h2 id="modalTitle">Adicionar produto</h2></div><button class="modal-close" id="closeModal" type="button" aria-label="Fechar">×</button></div>
+      <div id="modalError" class="form-error" role="alert" hidden></div>
+      <form id="productForm">
+        <input type="hidden" id="editingId">
+        <div class="form-grid">
+          <label>Nome do produto<input id="productNameInput" required maxlength="100" placeholder="Ex.: Caixa de papelão"></label>
+          <label>ID / Código<input id="productIdInput" required maxlength="40" placeholder="Ex.: CX-KFT-001"></label>
+          <label>Categoria<input id="productCategoryInput" required maxlength="60" placeholder="Ex.: Embalagem"></label>
+          <label>Quantidade inicial<input id="productQtyInput" type="number" required min="0" step="1" value="0"></label>
+          <label>Preço de compra (R$)<input id="productCostInput" type="number" required min="0" step="0.01" value="0"></label>
+          <label>Preço de venda (R$)<input id="productPriceInput" type="number" required min="0" step="0.01" value="0"></label>
+          <label class="full-field">Foto do produto (opcional)<input id="productPhotoInput" type="file" accept="image/*"><small class="field-help">Escolha uma foto do computador. Se não selecionar, o produto ficará sem foto.</small><div id="productPhotoPreview" class="product-photo-preview" hidden></div></label>
+        </div>
+        <div class="modal-actions"><button type="button" class="button-secondary" id="cancelModal">Cancelar</button><button type="submit" class="button-primary" id="saveProductButton">Salvar produto</button></div>
+      </form>
+      <section class="stock-actions" id="stockActions" hidden>
+        <p class="section-label">MOVIMENTAÇÃO DE ESTOQUE</p>
+        <div class="quantity-row"><label for="movementQty">Quantidade</label><input id="movementQty" type="number" min="1" step="1" value="1"></div>
+        <div class="movement-buttons"><button type="button" class="button-primary" id="addStockButton">＋ Adicionar unidades</button><button type="button" class="button-secondary" id="removeStockButton">− Remover unidades</button></div>
+        <p class="helper-text">A quantidade nunca fica negativa. Produtos com estoque zero continuam na lista.</p>
+      </section>
     </section>
   </div>
   <div class="toast" id="toast" role="status"></div>

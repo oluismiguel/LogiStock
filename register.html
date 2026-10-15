@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080808"><title>Criar conta — LogiStock</title><link rel="stylesheet" href="auth.css"><script src="auth.js" defer></script></head>
+<body class="auth-page"><main class="auth-shell register-shell"><a class="brand" href="login.html" aria-label="LogiStock"><span class="brand-symbol">L</span><span class="brand-name">Logi<span>Stock</span></span></a><p class="auth-tagline">CONTROLE DE ESTOQUE INTELIGENTE</p>
+<form id="registerForm" class="auth-form" novalidate><h1>Crie sua conta</h1><p class="muted">Comece a organizar seu estoque.</p>
+<label class="field"><span class="field-icon">♙</span><input id="name" name="name" type="text" placeholder="Nome completo" autocomplete="name" minlength="2" required></label>
+<label class="field"><span class="field-icon">✉</span><input id="email" name="email" type="email" placeholder="Email" autocomplete="email" required></label>
+<label class="field"><span class="field-icon">♙</span><input id="password" name="password" type="password" placeholder="Crie uma senha forte" autocomplete="new-password" required><button class="toggle-password" type="button" data-toggle="password" aria-label="Mostrar senha">◉</button></label>
+<div class="strength" id="strength" aria-live="polite">A senha precisa ter 8 caracteres, maiúscula, minúscula, número e símbolo.</div>
+<label class="field"><span class="field-icon">♙</span><input id="confirmPassword" name="confirmPassword" type="password" placeholder="Confirme a senha" autocomplete="new-password" required><button class="toggle-password" type="button" data-toggle="confirmPassword" aria-label="Mostrar confirmação">◉</button></label>
+<p class="message" id="message" role="alert" aria-live="polite"></p><button class="primary-btn" type="submit">Criar conta <span>→</span></button><p class="bottom-link">Já tem uma conta?<br><a href="login.html">Voltar para o login <span>→</span></a></p><p class="demo-note">Protótipo local • contas ficam salvas somente neste navegador</p></form></main></body></html>
